@@ -1,0 +1,26 @@
+<!-- Queremos crear un formulario para averiguar si el usuario tiene o no tiene una mascota.
+
+    Para eso, dentro del formulario ya declarado, debemos:
+
+        Crear un <label> con el texto "¿Tenés mascota?".
+        Agregar dos radio-button para darle la opción "Sí" y la opción "No".
+        Configurar el atributo name="mascota" en ambos <input> para que asocie que estamos hablando del mismo campo.
+
+Atención: Para poder averiguar, luego, qué es lo que eligió el usuario, no debemos olvidarnos de agregarle el atributo value a cada <input>. -->
+
+<html>
+  <head>
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form action="resultado.html" method="POST">
+        <label>
+          <input type="radio" name="mascota" value="Si"> Si </input>
+        </label>
+        <label>
+          <input type="radio" name="mascota" value="No"> No </input>
+        </label>
+        <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>

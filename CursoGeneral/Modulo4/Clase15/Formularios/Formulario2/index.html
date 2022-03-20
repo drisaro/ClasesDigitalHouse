@@ -1,0 +1,27 @@
+<!-- Veamos cómo empezar a darle cuerpo a nuestro formulario.
+
+    Queremos que exista un campo dentro del formulario para que el usuario pueda 
+    ingresar su nombre. Para eso, debemos agregar dos etiquetas dentro del formulario:
+    
+        La etiqueta <label> para informarle al usuario que debe ingresar su nombre. 
+        La misma deberá tener el atributo for con el valor nombre.
+        La etiqueta <input> con atributo type con el valor text (para que el usuario 
+        pueda ingresar su nombre) y el atributo id con el valor nombre. 
+        Por último, también debemos declarar el atributo name con el valor nombre 
+        ya que si este atributo no figura, no se enviará el campo como resultado.
+    
+        Recordemos que si están bien configurados los atributos for de la etiqueta <label> y 
+    el atributo id de la etiqueta <input>, al hacer click en el <label>, el cursor para 
+    escribir se posicionará automáticamente en el <input> relacionado. -->
+
+<html>
+    <head>
+      <title>Campos en el formulario</title>
+    </head>
+    <body>
+      <form action="resultado.html" method="POST">
+      <label for="nombre" type="text">nombre</label> 
+      <input type="text" id="nombre" name="nombre"></input>
+      </form>
+    </body>
+</html>

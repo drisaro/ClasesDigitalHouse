@@ -1,0 +1,30 @@
+[
+  {
+    "titulo": "Practicar Javascript",
+    "estado": "pendiente"
+  },
+  {
+    "titulo": "Completar Playground",
+    "estado": "en progreso"
+  },
+  {
+    "titulo": "ir a comer",
+    "estado": "en progreso"
+  },
+  {
+    "titulo": "Dormir 8 horas",
+    "estado": "en progreso"
+  },
+  {
+    "titulo": "Dormir 10 horas",
+    "estado": "en progreso"
+  },
+  {
+    "titulo": "Ir a comprar",
+    "estado": "en progreso"
+  },
+  {
+    "titulo": "Escuchar musica",
+    "estado": "en progreso"
+  }
+]

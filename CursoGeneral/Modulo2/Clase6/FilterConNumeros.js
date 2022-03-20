@@ -12,7 +12,7 @@ let aprobados = estudiantes.filter(function(estudiante){
 
 let desaprobados = estudiantes.filter(function(estudiante){
     return !estudiante.aprobado; //Al igual que arriba, solo se guardan los TRUE, entonces vamos por la negación. (!)
-});;
+});
 
 /* Con una Arrow Function se puede hacer 
 / let aprobados = estudiantes.filter(estudiante => estudiante.aprobado);

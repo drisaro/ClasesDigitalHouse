@@ -1,0 +1,37 @@
+<!-- ¡Creemos un formulario de registro!
+
+    Queremos agregar tres campos para que el usuario pueda ingresar un nombre, un e-mail y una contraseña. 
+    Deberemos usar las siguientes etiquetas:
+
+        Una etiqueta <input> para que el usuario ingrese su nombre.
+        Una etiqueta <input> para que el usuario ingrese su e-mail.
+        Una etiqueta <input> para que el usuario ingrese su contraseña.
+        Una etiqueta <label> para cada uno de los <input>.
+
+    Los tres <input> deberán tener el atributo name declarado, con los valores nombre, email y password para 
+    que la información efectivamente viaje al enviar el formulario. 
+
+Atención: en el index.html ya están listas las etiquetas de párrafo para escribir en ellas cada uno de los 
+campos y así visualizar el formulario más prolijo en el navegador. -->
+
+<html>
+  <head>
+    <title>Formulario de registro</title>
+  </head>
+  <body>
+    <form action="resultado.html" method="POST">
+      <p>
+        <label for="nombre" type="text">nombre</label> 
+        <input type="text" id="nombre" name="nombre"></input>
+      </p>
+      <p>
+        <label for="email" type="e-mail">e-mail</label> 
+        <input type="email" id="e-mail" name="email"></input>        
+      </p>
+      <p>
+        <label for="password" type="password">contraseña</label> 
+        <input type="password" id="password" name="password"></input>
+      </p>
+    </form>
+  </body>
+</html>

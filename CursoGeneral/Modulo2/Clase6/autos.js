@@ -20,4 +20,4 @@ let autos = [{
     vendido: false,
 }]
 
-console.log(autos)
+module.exports = autos;
